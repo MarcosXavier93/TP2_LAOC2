@@ -24,10 +24,8 @@ Mem[3] = 16'b0000000000000100;
   
 end
 
-always @(posedge Clock) begin
-	if(addr)begin
+always @(posedge Clock , addr) begin
 	q = Mem[addr];
-	end
 end
 
 always @(posedge Clock)
@@ -50,7 +48,7 @@ wire [15:0] a;
 reg [15:0] Mem [0:64];
 
 always @(addr) begin
- q = Mem[addr];
+assign q = Mem[addr];
 end
 
 initial 
