@@ -6,4 +6,3 @@ wave modify -driver freeze -pattern constant -value St1 -starttime 0ps -endtime 
 wave create -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 10000ps sim:/system/Run 
 WaveCollapseAll -1
 wave clipboard restore
-
