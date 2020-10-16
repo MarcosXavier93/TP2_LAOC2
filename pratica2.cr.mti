@@ -1,0 +1,27 @@
+C:/Users/Aluno/Documents/pratica2/memory.v {1 {vlog -work work C:/Users/Aluno/Documents/pratica2/memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory_main
+-- Compiling module memory_instruction
+
+Top level modules:
+	memory_main
+	memory_instruction
+
+} {} {}} C:/Users/Aluno/Documents/pratica2/system.v {1 {vlog -work work C:/Users/Aluno/Documents/pratica2/system.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module system
+-- Compiling module mux2pra1
+
+Top level modules:
+	system
+
+} {} {}} C:/Users/Aluno/Documents/pratica2/display.v {1 {vlog -work work C:/Users/Aluno/Documents/pratica2/display.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module display
+-- Compiling module hexto7segment
+
+Top level modules:
+	display
+
+
+} {} {}}
